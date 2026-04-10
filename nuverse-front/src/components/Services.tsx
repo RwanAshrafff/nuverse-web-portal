@@ -44,7 +44,7 @@ export function Services({ onOpenLabs, onOpenAIProfessor, onStartTour }: Service
       rightText: "You can do your experiment safely and in an interactive way.",
       image: "/Images/virtual-lab.jpeg",
       gallery: ["/Images/virtual-lab.jpeg", "/Images/virtual-lab.jpeg"],
-      features: ["Circuits Lab", "Chemistry Lab", "Interactive Simulations", "Safe Virtual Environment"],
+      features: ["Circuits & Chemistry Labs", "Interactive Simulations", "Safe Virtual Environment"],
       onClick: onOpenLabs,
       hasDetailView: false,
     },
@@ -138,10 +138,10 @@ export function Services({ onOpenLabs, onOpenAIProfessor, onStartTour }: Service
             initial={{ opacity: 0, y: 20 }}
             animate={headerInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.3 }}
-            className="text-5xl md:text-8xl font-bold uppercase tracking-tighter text-gray-900 dark:text-white mb-6 leading-tight"
+            className="text-4xl md:text-5xl font-black uppercase tracking-tighter mb-6 leading-tight"
             style={{ fontFamily: 'RostexDisplay, sans-serif' }}
           >
-            VR <span className="text-4xl md:text-6xl font-bold uppercase tracking-tighter text-gray-900 dark:text-white mb-6 leading-tight">SERVICES</span>
+            <span className="text-white">VR</span> <span className="nu-header-gradient">SERVICES</span>
           </motion.h2>
 
           <motion.p

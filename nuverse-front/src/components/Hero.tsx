@@ -128,7 +128,7 @@ export function Hero({ onStart360Tour }: HeroProps) {
             <div className="space-y-4">
               <motion.h1
                 variants={itemVariants}
-                className="text-4xl md:text-4xl font-black uppercase tracking-tighter text-white leading-tight"
+                className="text-3xl md:text-5xl font-black uppercase tracking-tighter leading-tight text-white"
                 style={{ fontFamily: 'RostexDisplay, sans-serif' }}
               >
                 DISCOVER NILE UNIVERSITY LIKE NEVER BEFORE
@@ -141,7 +141,6 @@ export function Hero({ onStart360Tour }: HeroProps) {
                 Dive into interactive labs, talk to an AI-powered Admission Officer, and connect seamlessly with a virtual AI-professor — from anywhere in the world.
               </motion.p>
             </div>
-
             <motion.div variants={itemVariants} className="flex flex-wrap gap-5">
               <motion.button
                 onClick={onStart360Tour}
@@ -231,15 +230,15 @@ export function Hero({ onStart360Tour }: HeroProps) {
               className="relative mt-8 z-20 text-center"
             >
               <div className="inline-block">
-                <div className="absolute -inset-3 bg-gradient-to-r from-nu-red-500 via-nu-blue-500 to-nu-red-500 rounded-lg opacity-20 blur-lg group-hover:opacity-40 transition duration-500"></div>
+                <div className="absolute -inset-3 bg-gradient-to-r from-[#38476b] via-[#2d3a5a] to-[#121521] rounded-lg opacity-20 blur-lg group-hover:opacity-40 transition duration-500"></div>
                 <h2
-                  className="relative text-4xl md:text-5xl font-black uppercase tracking-[0.15em]"
+                  className="relative text-4xl md:text-5xl font-black uppercase tracking-[0.15em] nu-header-gradient"
                   style={{
                     fontFamily: 'RostexDisplay, sans-serif',
-                    textShadow: '0 0 30px rgba(182, 25, 46, 0.3), 0 0 60px rgba(99, 102, 241, 0.2)',
+                    textShadow: '0 0 30px rgba(56, 71, 107, 0.35), 0 0 60px rgba(18, 21, 33, 0.25)',
                   }}
                 >
-                  <span className="text-white">N</span><span className="text-nu-blue-400">U</span><span className="text-white">V</span><span className="text-nu-red-500">ER</span><span className="text-white">S</span><span className="text-nu-red-500">E</span>
+                  NUVERSE
                 </h2>
               </div>
             </motion.div>

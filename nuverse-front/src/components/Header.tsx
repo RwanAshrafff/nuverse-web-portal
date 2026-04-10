@@ -88,7 +88,7 @@ export function Header() {
         <div className="flex justify-between items-center h-24">
           <Link href="/" className="flex items-center gap-3 group transition-transform hover:scale-105">
             <div className="relative mt-2 ml-4 md:-mt-6 md:ml-20">
-              <div className="absolute -inset-1 bg-gradient-to-r from-nu-blue-600 to-nu-red-600 rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-[#38476b] to-[#121521] rounded-full blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
               <Image
                 src={BRAND.logoPath}
                 alt={`${BRAND.name} Logo`}
@@ -116,7 +116,7 @@ export function Header() {
                     className={`relative font-bold transition-colors px-4 py-2 rounded-full uppercase tracking-widest text-sm
                       ${isActive
                         ? "text-nu-peach-300 bg-white/10 shadow-[0_10px_40px_rgba(0,0,0,0.25)]"
-                        : "text-white hover:text-nu-peach-300 hover:bg-white/10"
+                        : "text-white hover:text-nu-blue-300 hover:bg-white/10"
                       }
                     `}
                   >
@@ -155,7 +155,7 @@ export function Header() {
                     className={`font-semibold px-4 py-3 rounded-2xl transition-colors
                       ${isActive
                         ? "text-nu-peach-300 bg-white/10"
-                        : "text-white hover:text-nu-red-500 hover:bg-white/5"
+                        : "text-white hover:text-nu-blue-300 hover:bg-white/5"
                       }
                     `}
                   >

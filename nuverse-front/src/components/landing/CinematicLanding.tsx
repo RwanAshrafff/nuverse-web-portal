@@ -196,8 +196,8 @@ export function CinematicLanding({ onComplete }: CinematicLandingProps) {
                             transition={{ delay: 0.3, duration: 0.8 }}
                             className="text-center"
                         >
-                            <h1 className="text-4xl md:text-6xl font-black mb-4 text-white uppercase tracking-tighter">
-                                NU<span className="text-nu-red-500">verse</span> VR
+                            <h1 className="text-4xl md:text-6xl font-black mb-4 uppercase tracking-tighter nu-header-gradient">
+                                NUVERSE VR
                             </h1>
                             <p className="text-sm text-gray-500 tracking-[0.3em] uppercase mb-12">
                                 Headphones Recommended
@@ -260,10 +260,7 @@ export function CinematicLanding({ onComplete }: CinematicLandingProps) {
                                     transition={{ delay: 0.2, duration: 0.8 }}
                                     className="text-center px-4"
                                 >
-                                    <h2
-                                        className="section-h2 bg-clip-text text-transparent mb-8 tracking-widest drop-shadow-[0_0_25px_rgba(255,255,255,0.3)]"
-                                        style={{ backgroundImage: 'linear-gradient(45deg, #38476b, #b6192e, #ffc1ac)' }}
-                                    >
+                                    <h2 className="section-h2 nu-header-gradient mb-8 tracking-widest drop-shadow-[0_0_25px_rgba(255,255,255,0.3)]">
                                         Welcome to NUverse
                                     </h2>
                                     <div className="w-16 h-16 border-4 border-nu-red-500/30 border-t-nu-red-500 rounded-full animate-spin mx-auto shadow-[0_0_30px_rgba(182,25,46,0.3)]" />

@@ -63,7 +63,7 @@ export function AIProfessorViewer({ onClose, onRequestVRTour }: AIProfessorViewe
           className="flex-[0_0_400px] min-h-[60vh] flex flex-col justify-start sticky top-24"
         >
           <h1
-            className="text-5xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent uppercase tracking-tight"
+            className="text-3xl lg:text-4xl font-black mb-6 nu-header-gradient uppercase tracking-tight"
             style={{ fontFamily: "RostexDisplay, sans-serif" }}
           >
             {title}
