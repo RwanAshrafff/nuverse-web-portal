@@ -118,12 +118,12 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Left Side: Text Content */}
           <div className="space-y-6 lg:pt-12">
-            <h1 className="text-5xl sm:text-5xl font-bold text-white leading-tight uppercase tracking-wider" style={{ fontFamily: 'RostexDisplay, sans-serif' }}>
+            <h1 className="text-4xl md:text-5xl font-black text-white leading-tight uppercase tracking-wider" style={{ fontFamily: 'RostexDisplay, sans-serif' }}>
               REQUEST A VIRTUAL
               <br />
               REALITY
               <br />
-              CAMPUS TOUR
+              <span className="nu-header-gradient">CAMPUS TOUR</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-300 leading-relaxed max-w-xl" style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}>
@@ -140,7 +140,7 @@ export function Contact() {
           {/* Right Side: Contact Form */}
           <div className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl p-8 md:p-10 border border-white/10 transition-all duration-300">
             <div className="mb-8 text-white">
-              <h3 className="text-2xl font-bold text-gray-900 dark:text-white uppercase tracking-tight" style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}>VR Tour Request Form</h3>
+              <h3 className="text-2xl font-bold uppercase tracking-tight nu-header-gradient" style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}>VR Tour Request Form</h3>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -241,7 +241,7 @@ export function Contact() {
               <button
                 type="submit"
                 disabled={submitting}
-                className="group w-full bg-gradient-to-r from-[#121521] via-[#38476b] via-[#b6192e] to-[#ffc1ac] bg-[length:200%_auto] hover:bg-right hover:opacity-90 text-white px-8 py-4 rounded-xl transition-all duration-500 flex items-center justify-center gap-3 shadow-lg hover:shadow-2xl transform hover:scale-[1.02] disabled:opacity-60 disabled:cursor-not-allowed disabled:transform-none font-bold uppercase tracking-widest text-lg"
+                className="group w-full btn-primary text-white px-8 py-4 rounded-xl transition-all duration-500 flex items-center justify-center gap-3 shadow-lg hover:shadow-2xl transform hover:scale-[1.02] disabled:opacity-60 disabled:cursor-not-allowed disabled:transform-none font-bold uppercase tracking-widest text-lg"
                 style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}
               >
                 {submitting ? (
