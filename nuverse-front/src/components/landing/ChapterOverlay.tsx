@@ -78,10 +78,7 @@ function Chapter({
                 <div className="text-[10px] md:text-xs font-black tracking-[0.3em] text-nu-red-500 mb-3 uppercase">
                     Chapter {String(chapter.id).padStart(2, "0")}
                 </div>
-                <h2
-                    className="text-2xl md:text-3xl lg:text-4xl font-black mb-4 leading-tight whitespace-pre-line bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]"
-                    style={{ backgroundImage: 'linear-gradient(to right, #b6192e, #ffc1ac)' }}
-                >
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-black mb-4 leading-tight whitespace-pre-line nu-header-gradient drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
                     {chapter.title}
                 </h2>
                 <p className="text-sm md:text-base lg:text-lg text-white/90 leading-relaxed max-w-lg font-medium drop-shadow-md">

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { Component, ReactNode } from "react";
+import { AlertTriangle } from "lucide-react";
 
 interface ErrorBoundaryProps {
     children: ReactNode;
@@ -41,7 +42,9 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
             return (
                 <div className="flex flex-col items-center justify-center min-h-[400px] p-8 text-center">
                     <div className="bg-white/5 backdrop-blur-xl rounded-3xl p-8 border border-white/10 max-w-md">
-                        <div className="text-4xl mb-4">⚠️</div>
+                        <div className="flex justify-center text-nu-red-500 mb-4">
+                            <AlertTriangle size={48} />
+                        </div>
                         <h2 className="text-xl font-bold text-white mb-2">Something went wrong</h2>
                         <p className="text-gray-400 mb-4">
                             We encountered an unexpected error. Please try refreshing the page.
