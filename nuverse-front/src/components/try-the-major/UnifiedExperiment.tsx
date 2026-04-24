@@ -20,6 +20,7 @@ import {
   BusinessLaunch,
   StructuralIntegrity,
   RocketLaunch,
+  BlockCoding,
   CircuitRepair
 } from './InteractiveElements';
 import { OutcomeScreen } from './OutcomeScreen';
@@ -83,6 +84,7 @@ export function UnifiedExperiment({ majorKey, onRestart }: UnifiedExperimentProp
       case 'STRUCTURAL_INTEGRITY': return <StructuralIntegrity {...props} />;
       case 'CIRCUIT_REPAIR': return <CircuitRepair {...props} />;
       case 'ROCKET_LAUNCH': return <RocketLaunch {...props} />;
+      case 'BLOCK_CODING': return <BlockCoding {...props} />;
       default: return <div className="text-white">Experiment content coming soon...</div>;
     }
   }, [currentStep, config.accentColor, handleCompleteStep]);
