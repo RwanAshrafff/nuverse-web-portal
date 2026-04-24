@@ -1,6 +1,6 @@
 import { MajorCategory } from './major-fit';
 import {
-  LucideIcon, 
+  LucideIcon,
   Wrench, Dna, Building, Briefcase,
   Cpu, Code, Terminal, Settings, Hammer,
   FlaskConical, Microscope, Thermometer, Compass, Ruler, Pencil,
@@ -12,7 +12,7 @@ import {
   Zap, Gauge
 } from 'lucide-react';
 
-export type ExperimentType = 'SORT' | 'LAB_SELECT' | 'LOGIC' | 'PLACEMENT' | 'BALANCE' | 'CUBE_SORT' | 'FLOWCHART_EVEN_ODD' | 'FLASK_DRAG_DROP' | 'ROOM_DESIGN' | 'TOWER_BUILD' | 'BUSINESS_LAUNCH' | 'CIRCUIT_LAB' | 'CIRCUIT_REPAIR' | 'ROCKET_LAUNCH' | 'STRUCTURAL_INTEGRITY';
+export type ExperimentType = 'SORT' | 'LAB_SELECT' | 'LOGIC' | 'PLACEMENT' | 'BALANCE' | 'CUBE_SORT' | 'BLOCK_CODING' | 'FLOWCHART_EVEN_ODD' | 'FLASK_DRAG_DROP' | 'ROOM_DESIGN' | 'TOWER_BUILD' | 'BUSINESS_LAUNCH' | 'CIRCUIT_LAB' | 'CIRCUIT_REPAIR' | 'ROCKET_LAUNCH' | 'STRUCTURAL_INTEGRITY';
 
 export interface ExperimentStep {
   id: string;
@@ -58,8 +58,8 @@ export const SIMULATION_CONFIGS: Record<MajorCategory, SimulationConfig> = {
     experiments: [
       {
         id: 'cs_q1',
-        type: 'CUBE_SORT',
-        question: 'Sort the cubes in ascending order',
+        type: 'BLOCK_CODING',
+        question: 'Implement a Sorting Algorithm using Logic Units',
       }
     ]
   },
